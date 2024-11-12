@@ -8,3 +8,28 @@ body {
   background-color: #ededee;
 
 }
+
+header {
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+  }
+}
+
+
+footer {
+  background-color: #444;
+  color: whitesmoke;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+}

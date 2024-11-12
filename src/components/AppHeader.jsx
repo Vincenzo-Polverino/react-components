@@ -1,10 +1,13 @@
 export default function AppHeader() {
-
+    const title = 'Il mio blog'
 
 
     return (
         <header>
-            <h1>Il mio blog</h1>
+            <div className="container">
+                <h1>{title}</h1>
+            </div>
+
         </header>
     )
 
